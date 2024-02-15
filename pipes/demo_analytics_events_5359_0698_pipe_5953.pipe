@@ -3,7 +3,3 @@ TOKEN "scheduled_copy_t_d83b11ff9151426b9de942eb985d88c9" READ
 NODE demo_analytics_events_5359_0698_pipe_5953_0
 SQL >
     SELECT * FROM demo_analytics_events_5359
-
-TYPE COPY
-TARGET_DATASOURCE copy_demo_analytics_events_5359_0698_pipe_5953
-COPY_SCHEDULE 1 * * * *
